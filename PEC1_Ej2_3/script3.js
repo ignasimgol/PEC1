@@ -71,7 +71,6 @@ function setCurrencyData(currency) {
     localStorage.setItem('selectedCurrency', currency);
 }
 
-
 function updateSelectedCount() {
     const selectedSeats = document.querySelectorAll('.row .seat.selected');
     const selectedSeatsCount = selectedSeats.length;
@@ -97,7 +96,7 @@ function updatePrices() {
         seat.innerText = (ticketPrice * exchangeRate).toFixed(2);
     });
 
-    updateCurrencySymbol(); // Actualiza el símbolo de la divisa en el párrafo
+    updateCurrencySymbol(); 
 }
 
 
@@ -120,15 +119,15 @@ function populateUI() {
     if (storedCurrency !== null) {
         selectedCurrency = storedCurrency;
         currencySelect.value = selectedCurrency;
-        fetchExchangeRate(selectedCurrency); // Actualiza la tasa de cambio y los precios
+        fetchExchangeRate(selectedCurrency); 
     }
 }
 
 
 currencySelect.addEventListener('change', e => {
     selectedCurrency = e.target.value;
-    setCurrencyData(selectedCurrency); // Guardar divisa en localStorage
-    fetchExchangeRate(selectedCurrency); // Fetch exchange rate and update prices
+    setCurrencyData(selectedCurrency); 
+    fetchExchangeRate(selectedCurrency); 
 });
 
 

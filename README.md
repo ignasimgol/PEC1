@@ -2,6 +2,8 @@ ignasimgol@uoc.edu
 
 Ignasi Muñoz Gol
 
+Link github: https://github.com/ignasimgol/PEC1
+
 En esta PEC, he configurado un entorno de desarrollo básico para trabajar con JavaScript, utilizando Visual Studio Code, Node.js, y Git. Se ha realizado un control de versiones a través de Git, incluyendo la creación y actualización del archivo README.md.
 
 No he encontrado ninguna gran dificultad gracias a los tutoriales proporcionados. El ejercicio practico que mas costó sulcionar fue el de añadir la funcionalidad del cambio de divisia a la página de selección de butacas, manteniendo todas las demás funcionalidades.

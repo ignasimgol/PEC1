@@ -6,7 +6,7 @@ El uso de etiquetas semánticas en HTML tiene varias ventajas importantes:
 
 ### Ventajas:
 1. **Mejora de la accesibilidad**:
-   Las etiquetas semánticas (como `<header>`, `<article>`, `<section>`, y `<footer>`) proporcionan una estructura clara al contenido. Esto facilita a las tecnologías de asistencia, como los lectores de pantalla, comprender mejor la jerarquía y organización del sitio.
+   Las etiquetas semánticas (como `<header>`, `<article>`, `<section>`, o `<footer>`) proporcionan una estructura clara al contenido. Esto facilita a las tecnologías de asistencia, como los lectores de pantalla, comprender mejor la jerarquía y organización del sitio web.
 
 2. **Mejor SEO**:
    Los motores de búsqueda utilizan las etiquetas semánticas para entender mejor el contenido de la página. Por ejemplo, `<nav>` indica un bloque de enlaces de navegación, lo que ayuda a mejorar el posicionamiento en buscadores.
@@ -18,18 +18,18 @@ El uso de etiquetas semánticas en HTML tiene varias ventajas importantes:
 
 ### APIs HTML5:
 
-1. **Canvas API**:
-   Permite dibujar gráficos en 2D y 3D directamente en el navegador usando JavaScript. Es útil para crear juegos, gráficos interactivos o renderizado de imágenes dinámicas. La etiqueta `<canvas>` se usa para definir el área donde se "dibujará2.
-
-2. **AJAX (Asynchronous JavaScript and XML)**:
+1. **AJAX (Asynchronous JavaScript and XML)**:
    AJAX permite la comunicación con el servidor de forma asíncrona, permitiendo actualizar partes específicas de la página sin necesidad de recargar todo el contenido. Es genial para cargar datos dinámicos eficientemente.
+
+2. **Canvas API**:
+   Permite dibujar gráficos en 2D y 3D directamente en el navegador usando JavaScript. Es útil para crear juegos, gráficos interactivos o renderizado de imágenes dinámicas. La etiqueta `<canvas>` se usa para definir el área donde se "dibujará2.
    
 3. **Web Storage API**: 
     Proporciona un mecanismo para almacenar datos localmente en el navegador a través de localStorage y sessionStorage, sin utilizar cookies. Esto mejora el rendimiento y la capacidad de almacenamiento.
 
 ## c. Cita qué opción ofrece CSS3 para conseguir que se apliquen diferentes estilos CSS sobre el mismo elemento en su visualización en diferentes dispositivos (diferentes tamaños de pantalla). 
 
-Media Queries: CSS3 introduce las media queries, que permiten aplicar diferentes estilos CSS en función de las características del dispositivo, como el tamaño de pantalla, la orientación o la resolución. Esto es fundamental para el diseño web responsivo, adaptando el diseño a distintos dispositivos, desde teléfonos móviles hasta monitores grandes.
+Es gracias a las Media Queries: CSS3 introduce las media queries, que permiten aplicar diferentes estilos CSS en función de las características del dispositivo, como el tamaño de pantalla, la orientación o la resolución. Esto es fundamental para el diseño web responsive, adaptando el diseño a distintos dispositivos, desde teléfonos móviles hasta monitores o tablets.
 
 ## d. Cita al menos 4 de las características principales de TypeScript (importante  superset de JavaScript que trataremos en el siguiente capítulo). 
 
@@ -46,7 +46,7 @@ Media Queries: CSS3 introduce las media queries, que permiten aplicar diferentes
 
 ## a. Cita al menos 2 de estos preprocesadores.
 
-1. **Sass (Syntactically Awesome Stylesheets)**: Es uno de los preprocesadores CSS más populares que permite el uso de variables, anidación, mixins, y funciones para hacer el código más modular y fácil de mantener.
+1. **Sass**: Es uno de los preprocesadores CSS más populares que permite el uso de variables, anidación, mixins, y funciones para hacer el código más modular y fácil de mantener.
 
 2. **Less**: Otro preprocesador CSS que ofrece características similares a Sass, como variables, funciones y mixins. Es especialmente popular en proyectos que usan Bootstrap, ya que las primeras versiones del framework estaban basadas en Less.
 
@@ -54,7 +54,6 @@ Media Queries: CSS3 introduce las media queries, que permiten aplicar diferentes
 
 1. **Variables**:
    Permiten almacenar valores reutilizables, como colores o tamaños, lo que facilita la modificación del estilo en todo el proyecto desde un solo lugar.
-
 
 2. **Anidación**: 
    Los preprocesadores permiten anidar selectores dentro de otros, reflejando la estructura del HTML y haciendo que el código CSS sea más legible y estructurado.
@@ -80,7 +79,9 @@ En el ámbito de JavaScript, transpiladores como Babel convierten código modern
 # 3. El flujo de trabajo profesional en front-end hace indispensable el uso de herramientas como controles de versiones y herramientas de gestión de módulos (0.75 puntos). 
 
 ## a. Cita al menos dos sistemas de control de versiones y dos herramientas de gestión de módulos. 
+
 ### Sistemas de control de versiones:
+
 1. **Git**: Es el sistema de control de versiones distribuido más popular y ampliamente utilizado en el desarrollo de software. Permite realizar un seguimiento de los cambios en el código, coordinar el trabajo entre varios desarrolladores y gestionar el historial del proyecto.
 
 2. **Subversion (SVN)**: Es otro sistema de control de versiones centralizado. A diferencia de Git, donde cada desarrollador tiene una copia completa del repositorio, en SVN todos los cambios se gestionan en un servidor central.
